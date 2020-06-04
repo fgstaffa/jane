@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 2px solid #E6E6E6;
+}
+header div{
+    padding: 20px;
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav a{
+    width: 85px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+#fundo *{
+    width: 1356px;
+}
+
+#texto{
+    margin-top: 80px;
+}
+
+#texto div h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#texto div p{
+    font-size: 14px;
+}
+
+#danca div img{
+    width: 600px;
+}
+
+#danca div ol li span{
+    color: #FFBF00;
+}
+
+#danca div ol{
+    margin-top: 80px;
+}
+
+footer{
+    background-color: #E6E6E6;
+    margin-top: 40px;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* pagina about */
+
+#about-texto div{
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+#about-texto div h2{
+    font-weight: bold;
+}
+
+.about-textos{
+    width: 1110px;
+    text-align: center;
+}
+
+#about-conteudo div span{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+}
+
+#about-conteudo div p{
+    font-size: 14px;
+}
+
+#about-jane div img{
+    width: 480px;
+}
+
+/* pagina music */
+
+#music h2{
+    font-weight: bold;
+    margin: 60px 0 0 200px;
+}
+
+#video-1 iframe{
+    margin: 30px 0 0 200px;
+}
+
+#lista-music-1{
+    margin: 20px 0 0 220px;
+}
+
+#video-2 iframe{
+    margin: 30px 0 0 200px;
+}
+
+#music-texto-final{
+    margin: 20px 0 0 200px;
+}
+
+/* pagina contact */
+
+#form{
+    width: 600px;
+}
+
+#formulario{
+    margin-top: 80px;
+}
+
+#formulario input{
+    width: 400px;
+}
+
+#formulario textarea{
+    width: 400px;
+    height: 100px;
+}
+
+#questions button{
+    border: 0;
+    background-color: rgb(235, 65, 14);
+    width: 60px;
+    text-align: center;
+}
+
+#mapas{
+    width: 600px;
+    margin-top: 80px;
+}
+
+#contato-1{
+    margin-top: 50px;
+    border-top: 2.5px gray solid;
+}
+
+#management{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 125px;
+    height: 22px;
+    border-right: 2px black solid;
+}
+
+#karen{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#contato-1 span{
+    font-weight: bold;
+}
+
+#contato-2{
+    margin-top: 30px;
+    border-top: 2.5px gray solid;
+}
+
+#booking{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 22px;
+    border-right: 2px black solid;
+}
+
+#daniel{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#contato-2 span{
+    font-weight: bold;
+}
+
+#contato-3{
+    margin-top: 30px;
+    border-top: 2.5px gray solid;
+}
+
+#label{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 22px;
+    border-right: 2px black solid;
+}
+
+#wix{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#contato-3 span{
+    font-weight: bold;
+}
+
+#contato-4{
+    margin-top: 30px;
+    border-top: 2.5px gray solid;
+}
+
+#pr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 30px;
+    height: 22px;
+    border-right: 2px black solid;
+}
+
+#that{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#contato-4 span{
+    font-weight: bold;
+}

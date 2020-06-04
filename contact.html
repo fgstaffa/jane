@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<!-- # utiliza para ID 
+       . utiliza para class -->
+<head>
+  <!-- configurações da pagina -->
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- link bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- link css -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <title>Jane Doe - Home</title>
+</head>
+
+<body>
+    <header>
+
+      <div class="d-flex justify-content-center">
+        <h1>JANE DOE</h1>
+      </div>
+
+      <nav class="d-flex justify-content-center">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="music.html">Music</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+  
+      <main class="container">
+
+        <div class="d-flex justify-content-between">
+        <div id="form">
+          <form>
+            <div id="formulario">
+              <label for="nome">Name</label></br>
+              <input type="text" id="nome"></br></br>
+              <label for="email">Email</label></br>
+              <input type="mail" id="email"></br></br>
+              <label for="msg">Message</label></br>
+              <textarea name="msg"></textarea></br></br></br>
+            </div>
+
+            <div id="questions">
+              <label for="question">How did you found Jane's music?</label></br>
+              <input type="radio" name="instagram">
+              <label for="instagram">Instagram</label></br>
+              <input type="radio" name="facebook">
+              <label for="facebook">Facebook</label></br>
+              <input type="radio" name="youtube">
+              <label for="youtube">Youtube</label></br></br>
+              
+              <input type="checkbox" name="answer">
+              <label for="answer">Do you want to subscribe to our newsletter?</label></br>
+
+              <button type="submit" id="send">send</button>
+            </div>
+          </form>
+        </div>
+
+        <div id="mapas">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d58503.99476234295!2d-46.5502208!3d-23.5864064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1586806732263!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+      <!-- tamanho width 1356 -->
+      <div id="contato-1">
+        <div class="d-flex">
+          <div id="management">
+            <span>MANAGEMENT</span>
+          </div>
+          <div id="karen">
+            <span>Karen Blanche</span>
+          </div>
+        </div>
+        <p>email: <a href="mysite">info@mysite.com</a></p>
+        <p>phone: <a href="phone">123-456-7890</a></p>
+      </div>
+
+      <div id="contato-2">
+        <div class="d-flex">
+          <div id="booking">
+            <span>BOOKING</span>
+          </div>
+          <div id="daniel">
+            <span>Daniel Ku</span>
+          </div>
+        </div>
+        <p>email: <a href="mysite">info@mysite.com</a></p>
+        <p>phone: <a href="phone">123-456-7890</a></p>
+      </div>
+
+      <div id="contato-3">
+        <div class="d-flex">
+          <div id="label">
+            <span>LABEL</span>
+          </div>
+          <div id="wix">
+            <span>Wix Records, Jake Coldham</span>
+          </div>
+        </div>
+        <p>email: <a href="mysite">info@mysite.com</a></p>
+        <p>phone: <a href="phone">123-456-7890</a></p>
+      </div>
+
+      <div id="contato-4">
+        <div class="d-flex">
+          <div id="pr">
+            <span>PR</span>
+          </div>
+          <div id="that">
+            <span>That Girl Pr, Sarah Brookstone</span>
+          </div>
+        </div>
+        <p>email: <a href="mysite">info@mysite.com</a></p>
+        <p>phone: <a href="phone">123-456-7890</a></p>
+      </div>
+      </main>
+
+    <footer>
+        <p>Copyright - Jane Doe</p>
+    </footer>
+</body>
+
+</html>
